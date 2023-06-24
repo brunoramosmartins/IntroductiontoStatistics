@@ -27,4 +27,35 @@ O boxplot, uma ferramenta de visualização que mostra cinco números-chave de u
 
 ## Providing Context is Key for Statistical Analyses
 
-Nessa aula distacamos a importância de fornecer contexto em exibições gráficas ao realizar análises estatísticas. O princípio de pequenos múltiplos é uma ferramenta útil para esse propósito, pois permite a fácil comparação de dados ao longo do tempo ou em diferentes categorias. A lição fornece exemplos de pequenos múltiplos, incluindo um boxplot de temperaturas registradas em uma estação meteorológica ao longo de 50 anos e um gráfico de séries temporais das taxas de desemprego mensais para cada estado de 1976 a 2009.
+Nessa aula distacamos a importância de fornecer contexto em exibições gráficas ao realizar análises estatísticas. O `princípio de pequenos múltiplos` é uma ferramenta útil para esse propósito, pois permite a fácil comparação de dados ao longo do tempo ou em diferentes categorias. A lição fornece exemplos de pequenos múltiplos, incluindo um boxplot de temperaturas registradas em uma estação meteorológica ao longo de 50 anos e um gráfico de séries temporais das taxas de desemprego mensais para cada estado de 1976 a 2009.
+
+### Principle of small multiples (princípio de pequenos múltiplos)
+
+Os princípios de pequenos múltiplos são uma abordagem útil na análise de dados estatísticos, principalmente quando se lida com medidas de dispersão ou variabilidade. Esses princípios fornecem uma maneira de resumir e entender a dispersão dos dados em relação à média.
+
+Existem três princípios de pequenos múltiplos que são comumente utilizados: `o princípio de Chebyshev`, `o princípio de Empirical Rule` (regra empírica) e `o princípio de normalidade`.
+
+**Princípio de Chebyshev:**
+
+O princípio de Chebyshev estabelece que, para qualquer conjunto de dados (seja qual for sua forma de distribuição), pelo menos uma proporção específica de dados estará dentro de um certo número de desvios-padrão da média.
+Especificamente, para qualquer número $k$ maior que 1, pelo menos $1 - 1/k^2$ da totalidade dos dados estará dentro de $k$ desvios-padrão da média. Por exemplo, se $k = 2$, então pelo menos $1 - 1/2^2 = 1 - 1/4 = 75\%$ dos dados estarão dentro de 2 desvios-padrão da média.
+
+**Princípio da Regra Empírica:**
+
+A regra empírica, também conhecida como regra 68-95-99.7, é aplicável a distribuições aproximadamente simétricas e em forma de sino, como a distribuição normal.
+Segundo a regra empírica, aproximadamente:
+68% dos dados estarão dentro de 1 desvio-padrão da média.
+95% dos dados estarão dentro de 2 desvios-padrão da média.
+99.7% dos dados estarão dentro de 3 desvios-padrão da média.
+Esses valores são apenas aproximações e podem variar um pouco em diferentes distribuições.
+
+**Princípio de Normalidade:**
+
+O princípio de normalidade é aplicado quando os dados seguem uma distribuição normal. Nesse caso, os princípios de Chebyshev e a regra empírica se tornam mais precisos.
+Para uma distribuição normal, exatamente 68% dos dados estarão dentro de 1 desvio-padrão da média, 95% estarão dentro de 2 desvios-padrão e 99.7% estarão dentro de 3 desvios-padrão.
+A distribuição normal é simétrica em torno da média e é caracterizada por sua curva em forma de sino.
+Esses princípios são úteis para entender como os dados estão dispersos em relação à média e fornecem informações sobre a probabilidade de um dado ponto de dados estar dentro de um determinado intervalo em relação à média. No entanto, é importante ter em mente que esses princípios são aproximações e podem não ser precisos para todas as distribuições de dados.
+
+## Pitfalls when Visualizing Information
+
+Nessa aula discutimos a tentação de criar gráficos chamativos ao projetar com software moderno, mas como isso pode resultar em resultados ruins. O exemplo de um gráfico de barras tridimensional comparando doações anuais a três universidades é usado para ilustrar a dificuldade em comparar números ao usar gráficos chamativos. A lição sugere que um gráfico de pontos teria sido uma opção melhor para exibir esses dados. A lição também faz referência à apresentação em PowerPoint de Gettysburg por Peter Norvig como um exemplo dos possíveis problemas ao usar gráficos chamativos.
