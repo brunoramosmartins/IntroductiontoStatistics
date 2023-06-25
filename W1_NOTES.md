@@ -13,6 +13,12 @@ This module provides an overview of the course and a review of the main tools us
 
 Na introdução discutimos a importância da estatística descritiva na sumarização de dados com números e gráficos. Os principais tópicos abordados incluem os princípios de visualização de informações, a utilidade da estatística descritiva na comunicação de informações e no suporte ao raciocínio sobre dados, e a necessidade de usar amostras para conjuntos de dados grandes. A lição usa o exemplo do acidente do ônibus espacial Challenger para ilustrar a eficácia do uso de gráficos simples para entender dados.
 
+<center>
+
+![](images\\WhyAreDescriptiveStatisticsImportant.png)
+
+</center>
+
 ## Pie Chart, Bar Graph, and Histograms
 
 As duas maneiras de resumir dados: resumos numéricos e resumos gráficos. Resumos gráficos são preferidos, pois as pessoas preferem olhar para imagens em vez de números. A escolha da visualização depende da natureza dos dados e do objetivo da visualização. Para dados qualitativos, são usados gráficos de pizza ou gráficos de pontos, enquanto para dados quantitativos, são usados gráficos de barras ou histogramas. Histogramas permitem o uso de uma escala de densidade, que fornece informações sobre lotação e porcentagens. A área de um bloco em um histograma corresponde a uma porcentagem, e a altura do bloco indica quantos sujeitos existem para uma unidade na escala horizontal. O vídeo fornece exemplos de cada tipo de visualização e suas vantagens e desvantagens. 
@@ -59,3 +65,25 @@ Esses princípios são úteis para entender como os dados estão dispersos em re
 ## Pitfalls when Visualizing Information
 
 Nessa aula discutimos a tentação de criar gráficos chamativos ao projetar com software moderno, mas como isso pode resultar em resultados ruins. O exemplo de um gráfico de barras tridimensional comparando doações anuais a três universidades é usado para ilustrar a dificuldade em comparar números ao usar gráficos chamativos. A lição sugere que um gráfico de pontos teria sido uma opção melhor para exibir esses dados. A lição também faz referência à apresentação em PowerPoint de Gettysburg por Peter Norvig como um exemplo dos possíveis problemas ao usar gráficos chamativos.
+
+## Mean and Median
+
+A lição em vídeo discute medidas resumidas numéricas, especificamente a média e a mediana, e como elas podem ser usadas para resumir dados. A _mean_ é a média, enquanto a mediana é o ponto médio onde metade dos dados é maior e metade é menor. Se um histograma é simétrico, a média e a mediana são iguais, mas se ele é assimétrico, a mediana é uma medida melhor. A lição também introduz percentis, como o percentil 90 e 75, que podem ser usados para entender a distribuição de renda. Os principais tópicos abordados são média, mediana, assimetria, percentis e quartis. Para aprofundar o assunto, pode-se consultar "Estatística para Negócios e Economia" de Anderson, Sweeney e Williams.
+
+## Percentiles, the Five Number Summary, and Standard Deviation
+
+O texto trata de medidas de resumo de dados estatísticos. O boxplot é apresentado como uma forma de visualização dos dados, mostrando cinco números: o menor valor, o primeiro quartil, a mediana, o terceiro quartil e o maior valor. A distância entre o terceiro e o primeiro quartil é chamada de intervalo interquartil e é uma medida de dispersão dos dados. No entanto, é mais comum usar o desvio padrão como medida de dispersão. A fórmula para o desvio padrão é apresentada, mas é enfatizado que não é necessário memorizá-la, já que calculadoras e computadores podem fazê-lo. O desvio padrão é uma medida de dispersão que leva em conta a diferença de cada número em relação à média, eleva essa diferença ao quadrado, calcula a média desses quadrados e, finalmente, tira a raiz quadrada. A média e o desvio padrão são frequentemente usados para resumir dados, mas podem ser sensíveis a valores extremos. Nesses casos, é melhor usar a mediana e o intervalo interquartil. 
+
+Principais tópicos: boxplot, medidas de resumo, desvio padrão, média, mediana, intervalo interquartil.
+
+Para aprofundar o assunto, sugere-se a leitura do livro "Estatística Básica" de Bussab e Morettin.
+
+<center>
+
+![](images\\thestandarddeviation.png)
+
+</center>
+
+## [EXTRA] Industry Insight: Introduction to Andrew Radin
+
+Andrew Radin, CEO e co-fundador da twoXAR, discute sua formação em ciência da computação e seu interesse em causas sociais. Ele explica como sua esposa o encorajou a usar suas habilidades em ciência de dados para ter um impacto significativo no mundo, levando-o a fazer um curso em Stanford na área de bioinformática. Durante o curso, ele foi inspirado por uma palestra sobre o uso da expressão gênica e da expressão diferencial para descobrir novos medicamentos potenciais. Isso, combinado com seu trabalho anterior na incorporação de conjuntos de dados diversos, levou à gênese de seu projeto e, finalmente, à tecnologia por trás da twoXAR. A empresa usa inteligência artificial para descoberta de medicamentos. A literatura para aprofundar o assunto pode incluir artigos sobre o uso de IA na descoberta de medicamentos e a importância da incorporação de conjuntos de dados diversos.
