@@ -82,3 +82,11 @@ Nesta aula, falamos sobre o uso de cálculos de probabilidade para filtros de sp
 ## Bayesian Analysis
 
 A aula discute o uso da análise bayesiana para calcular probabilidades. Ele apresenta dois exemplos: o primeiro é sobre classificar e-mails como spam com base em palavras-chave, e o segundo é sobre a probabilidade de uma pessoa ter uma doença com base em um teste positivo. O texto explica como usar a regra de Bayes para atualizar a probabilidade inicial com base em evidências encontradas. No segundo exemplo, é mostrado que mesmo com um teste positivo, a probabilidade da pessoa ter a doença é baixa devido à baixa prevalência da doença na população em geral. Para aprofundar o assunto, sugere-se a leitura de livros sobre estatística bayesiana, como "Bayesian Data Analysis" de Andrew Gelman.
+
+## Warner's Randomized Response Model
+
+O texto discute a dificuldade de obter informações precisas sobre a porcentagem de estudantes que trapacearam em exames universitários devido à possibilidade de os alunos mentirem por vergonha. Para contornar esse problema, é proposta a técnica de randomização, em que os alunos são instruídos a jogar uma moeda antes de responder a uma pergunta sobre trapaça. Ao analisar as respostas coletivamente, é possível estimar a proporção de trapaceiros. A literatura recomendada para aprofundar o assunto é "Randomized Response: A Survey Technique for Eliminating Evasive Answer Bias" de Warner.
+
+## [EXTRA] Industry Insights: Drug Discovery at twoXAR
+
+O texto fala sobre o uso da ciência de dados na descoberta de medicamentos. O autor menciona que muitos esforços nessa área se concentram em examinar um tipo específico de dado ou utilizar metodologias inteligentes para analisar dados existentes. No entanto, o autor defende a importância de utilizar a maior diversidade possível de dados para obter insights mais significativos. O objetivo é identificar tratamentos mais eficazes para doenças, levando em consideração diferentes conjuntos de dados. O autor também menciona a existência de diferentes disciplinas nesse campo, algumas focadas apenas em conhecimento e outras em produzir diagnósticos e medicamentos. Sugestão de literatura: "Data Science in Drug Discovery" de Robert Rallo.
